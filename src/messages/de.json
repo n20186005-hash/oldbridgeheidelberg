@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Alte Brücke Heidelberg & Top Sehenswürdigkeiten | Reiseführer 2026",
-    "description": "Entdecken Sie die Alte Brücke Heidelberg, das Schloss & den Königstuhl. Alle Infos zu Öffnungszeiten, Fotospots, Geschichte & Highlights für Ihren Besuch!",
+    "title": "Alte Brücke Heidelberg (Karl-Theodor-Brücke): Tipps & Anfahrt",
+    "description": "Entdecken Sie die Alte Brücke in Heidelberg: Geschichte, Brückenaffe, Anfahrt, Fotospots und Tipps für Ihren kostenlosen Besuch am Neckar.",
     "ogImageAlt": "Alte Brücke (Old Bridge Heidelberg) – Panorama über den Neckar in Heidelberg, Deutschland"
   },
   "header": {
@@ -13,10 +13,10 @@
     "backToHome": "Zurück zur Startseite"
   },
   "hero": {
-    "title": "Old Bridge Heidelberg",
+    "title": "Alte Brücke Heidelberg (Karl-Theodor-Brücke)",
     "subtitle": "Heidelberg · Deutschland",
     "rating": "4.8",
-    "reviewCount": "18.345",
+    "reviewCount": "18.493",
     "hours": "24 Stunden geöffnet",
     "openMaps": "Standort ansehen",
     "imageAlt": "Alte Brücke (Old Bridge Heidelberg) – Panorama über den Neckar in Heidelberg, Deutschland"
@@ -213,59 +213,10 @@
     "showAllPhotos": "Alle Fotos anzeigen"
   },
   "reviews": {
-    "title": "Besucherbewertungen",
-    "declaration": "Bewertungsinformationen können über Google Maps eingesehen werden (externer Link).",
-    "moreReviews": "Weitere Bewertungen auf Google Maps ansehen",
-    "items": [
-      {
-        "name": "Markus Weber",
-        "date": "vor 2 Monaten",
-        "rating": 5,
-        "text": "Ein wunderschönes, gut erhaltenes Wahrzeichen! Die Steine und Statuen der Brücke sind voller Geschichte, der Blick auf Schloss und Neckar ist unbezahlbar. Unbedingt bei Sonnenuntergang kommen."
-      },
-      {
-        "name": "Julia Schneider",
-        "date": "vor 1 Monat",
-        "rating": 5,
-        "text": "Der schönste Ort in Heidelberg! Vom Brückenaffen bis zum Panoramablick auf die Altstadt – einfach traumhaft. Achtung: Auf der Brücke kann es windig sein, im Winter warm anziehen."
-      },
-      {
-        "name": "Thomas Becker",
-        "date": "vor 3 Monaten",
-        "rating": 4,
-        "text": "Ein beeindruckendes Bauwerk. Die Brücke ist nicht lang, aber die Lage ist perfekt – in wenigen Minuten ist man in der Altstadt oder am Schloss. Parken kann im Hochsommer etwas dauern."
-      },
-      {
-        "name": "Anna Wagner",
-        "date": "vor über 6 Monaten",
-        "rating": 5,
-        "text": "Sehr romantisch! Abends ist die beleuchtete Brücke mit Blick auf das Schloss ein Traum. Ich bin völlig verliebt in diese Stadt."
-      },
-      {
-        "name": "Peter Hoffmann",
-        "date": "vor 1 Jahr",
-        "rating": 5,
-        "text": "Die Aussicht hebt sofort die Stimmung. Vom Brückenaffen bis zum Flusslauf – alles ist perfekt in Szene gesetzt. Rundherum gibt es viele schöne Cafés."
-      },
-      {
-        "name": "Stefanie Braun",
-        "date": "vor über 6 Monaten",
-        "rating": 4,
-        "text": "Absolut sehenswert! Von der Altstadt ist die Brücke schnell erreicht. Bequeme Schuhe empfehlenswert, da überall Kopfsteinpflaster liegt. Viele tolle Fotomotive!"
-      },
-      {
-        "name": "Lukas Fischer",
-        "date": "vor 3 Monaten",
-        "rating": 5,
-        "text": "Als würde man durch die Geschichte laufen! Jeder Bogen und jede Skulptur hat seine eigene Geschichte. Ein absolutes Muss bei jedem Heidelberg-Besuch."
-      },
-      {
-        "name": "Christina Keller",
-        "date": "vor 2 Monaten",
-        "rating": 5,
-        "text": "Schöner als jede Beschreibung. Ob der Brückenaffe oder der Blick den Neckar hinauf – man möchte gar nicht weitergehen. Der Sonnenuntergang von der Brückenmitte ist unvergesslich."
-      }
-    ]
+    "title": "Bewertungen auf Google Maps",
+    "declaration": "Diese Website ist ein unabhängiges Informationsprojekt und veröffentlicht keine eigenen Besucherbewertungen. Die aktuelle Google-Bewertung der Alten Brücke finden Sie über den folgenden Link.",
+    "countLabel": "Bewertungen auf Google Maps",
+    "moreReviews": "Alte Brücke auf Google Maps ansehen"
   },
   "mapSection": {
     "title": "Lage & Anfahrt: Alte Brücke in Heidelberg (Old Bridge)",
@@ -474,6 +425,9 @@
     },
     "badge": "Heidelberg Reiseführer",
     "title": "Die Top-Sehenswürdigkeiten in Heidelberg rund um die Alte Brücke",
+    "overviewTitle": "Auf einen Blick: Entfernung ab der Alten Brücke",
+    "colName": "Sehenswürdigkeit",
+    "colDistance": "Fußweg ab Alter Brücke",
     "intro": [
       "Heidelberg zählt zu den schönsten Städten Deutschlands – und die Alte Brücke liegt genau im Zentrum der berühmtesten Sehenswürdigkeiten. Von hier aus erreichen Sie Heidelberger Schloss, Philosophenweg und Altstadt in wenigen Minuten zu Fuß.",
       "In diesem Reiseführer finden Sie die wichtigsten Attraktionen Heidelbergs mit Entfernungen zur Alten Brücke, Hinweisen zu Eintritt und Öffnungszeiten sowie praktischen Tipps für Ihren Besuch."
@@ -718,7 +672,7 @@
       },
       {
         "label": "Google Maps – Alte Brücke Heidelberg",
-        "desc": "Öffentliche Bewertungen (4,8 / über 18.000) und aktuelle Fotos von Besuchern zur Orientierung.",
+        "desc": "Öffentliche Bewertungen (4,8 / über 18.400) und aktuelle Fotos von Besuchern zur Orientierung.",
         "url": "https://maps.app.goo.gl/E6sARLKkqxeeVSDH7"
       }
     ],

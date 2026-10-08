@@ -16,7 +16,7 @@
     "title": "Old Bridge Heidelberg",
     "subtitle": "Heidelberg · Germany",
     "rating": "4.8",
-    "reviewCount": "18,345",
+    "reviewCount": "18,493",
     "hours": "Open 24 hours",
     "openMaps": "View on Google Maps",
     "imageAlt": "Old Bridge Heidelberg – main view over the River Neckar in Heidelberg, Germany"
@@ -213,59 +213,10 @@
     "showAllPhotos": "Show all photos"
   },
   "reviews": {
-    "title": "Visitor Reviews",
-    "declaration": "Review information can be viewed via Google Maps (external link).",
-    "moreReviews": "See more reviews on Google Maps",
-    "items": [
-      {
-        "name": "Mark Weber",
-        "date": "2 months ago",
-        "rating": 5,
-        "text": "A beautifully preserved landmark! The stones and statues are full of history, and the view of the castle and the Neckar is priceless. Definitely come for sunset."
-      },
-      {
-        "name": "Julia Sanders",
-        "date": "1 month ago",
-        "rating": 5,
-        "text": "The most beautiful place in Heidelberg! From the bridge monkey to the panorama of the Old Town – simply stunning. It can get breezy, so bring a jacket in winter."
-      },
-      {
-        "name": "Tom Baker",
-        "date": "3 months ago",
-        "rating": 4,
-        "text": "An impressive structure. The bridge itself is not long, but the location is perfect – you can reach the Old Town or the castle within minutes. Parking can take a while in high season."
-      },
-      {
-        "name": "Anna Walker",
-        "date": "over 6 months ago",
-        "rating": 5,
-        "text": "So romantic! In the evening the illuminated bridge with the castle in the background is a dream. I completely fell in love with this city."
-      },
-      {
-        "name": "Peter Hoffman",
-        "date": "1 year ago",
-        "rating": 5,
-        "text": "The view instantly lifts your mood. From the bridge monkey to the river – everything is beautifully framed. Plenty of lovely cafés nearby."
-      },
-      {
-        "name": "Stephanie Brown",
-        "date": "over 6 months ago",
-        "rating": 4,
-        "text": "Absolutely worth seeing! From the Old Town you reach the bridge quickly. Comfortable shoes are a must – there is cobblestone everywhere. Tons of great photo spots!"
-      },
-      {
-        "name": "Lucas Fisher",
-        "date": "3 months ago",
-        "rating": 5,
-        "text": "It feels like walking through history! Every arch and every statue has a story to tell. An absolute must on any visit to Heidelberg."
-      },
-      {
-        "name": "Christina Keller",
-        "date": "2 months ago",
-        "rating": 5,
-        "text": "More beautiful than any description. Whether the bridge monkey or the view upstream along the Neckar – you simply don't want to move on. The sunset from the middle of the bridge is unforgettable."
-      }
-    ]
+    "title": "Ratings on Google Maps",
+    "declaration": "This website is an independent information project and does not publish its own visitor reviews. You can find the current Google rating of the Old Bridge via the link below.",
+    "countLabel": "reviews on Google Maps",
+    "moreReviews": "View the Old Bridge on Google Maps"
   },
   "mapSection": {
     "title": "Location & How to Visit Old Bridge in Heidelberg",
@@ -474,6 +425,9 @@
     },
     "badge": "Heidelberg Travel Guide",
     "title": "Top Things to Do in Heidelberg Around the Old Bridge",
+    "overviewTitle": "At a glance: walking distance from the Old Bridge",
+    "colName": "Attraction",
+    "colDistance": "Walk from Old Bridge",
     "intro": [
       "Heidelberg is one of Germany's most beautiful cities – and the Old Bridge sits right in the centre of its most famous sights. From here you can reach Heidelberg Castle, the Philosophers' Walk and the Old Town within a short walk.",
       "This guide lists the most important attractions in Heidelberg with distances from the Old Bridge, notes on admission and opening hours, and practical tips for your visit."

@@ -138,6 +138,68 @@ function AttractionsBody() {
             className="font-display text-2xl sm:text-3xl font-semibold mb-6"
             style={{ color: 'var(--text-primary)' }}
           >
+            {t('overviewTitle')}
+          </h2>
+          <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
+
+          {/* Quick-reference comparison table: name + walking distance from the Old Bridge. */}
+          <div
+            className="rounded-xl overflow-hidden mb-12"
+            style={{
+              background: 'var(--bg-secondary)',
+              border: '1px solid var(--border-color)',
+            }}
+          >
+            <table className="w-full text-left text-sm sm:text-base border-collapse">
+              <thead>
+                <tr style={{ background: 'var(--bg-tertiary)' }}>
+                  <th
+                    className="px-4 sm:px-6 py-3 font-semibold"
+                    style={{ color: 'var(--text-primary)' }}
+                  >
+                    {t('colName')}
+                  </th>
+                  <th
+                    className="px-4 sm:px-6 py-3 font-semibold whitespace-nowrap"
+                    style={{ color: 'var(--text-primary)' }}
+                  >
+                    {t('colDistance')}
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {items.map((item, index) => (
+                  <tr
+                    key={item.id}
+                    style={{
+                      borderTop: '1px solid var(--border-color)',
+                    }}
+                  >
+                    <td className="px-4 sm:px-6 py-3">
+                      <a
+                        href={`#${item.id}`}
+                        className="font-medium transition-colors"
+                        style={{ color: 'var(--accent)' }}
+                      >
+                        {`${index + 1}. ${item.name}`}
+                      </a>
+                    </td>
+                    <td
+                      className="px-4 sm:px-6 py-3"
+                      style={{ color: 'var(--text-secondary)' }}
+                    >
+                      {item.distance}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <h2
+            className="font-display text-2xl sm:text-3xl font-semibold mb-6"
+            style={{ color: 'var(--text-primary)' }}
+          >
             {t('itemsTitle')}
           </h2>
           <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />

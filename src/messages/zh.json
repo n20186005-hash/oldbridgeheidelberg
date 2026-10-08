@@ -16,7 +16,7 @@
     "title": "Old Bridge Heidelberg",
     "subtitle": "海德堡 · 德国",
     "rating": "4.8",
-    "reviewCount": "18,345",
+    "reviewCount": "18,493",
     "hours": "全天开放",
     "openMaps": "查看位置",
     "imageAlt": "海德堡老桥（Old Bridge Heidelberg）— 内卡河上的全景，德国海德堡"
@@ -213,59 +213,10 @@
     "showAllPhotos": "显示全部照片"
   },
   "reviews": {
-    "title": "游客评价",
-    "declaration": "评价信息可透过 Google Maps 查看（外部链接）。",
-    "moreReviews": "在 Google Maps 查看更多评价",
-    "items": [
-      {
-        "name": "João Silva",
-        "date": "2个月前",
-        "rating": 5,
-        "text": "一个绝妙的保存完好的历史石桥！石板路和雕像充满了历史感，在这里散步感觉非常放松。强烈推荐日落时分来这里。"
-      },
-      {
-        "name": "Maria Costa",
-        "date": "1个月前",
-        "rating": 5,
-        "text": "海德堡最美的散步去处之一！这里的宁静让人放松，周围的风景非常漂亮。不过要注意，冬天去的时候桥上风大，记得带保暖衣物。"
-      },
-      {
-        "name": "Carlos Rodrigues",
-        "date": "3个月前",
-        "rating": 4,
-        "text": "令人惊叹的地方。老桥虽然不长，但位置绝佳。在附近的餐厅吃了一顿非常棒的传统德国菜。唯一的问题是停车位在旺季可能不太好找。"
-      },
-      {
-        "name": "Ana Martins",
-        "date": "半年多前",
-        "rating": 5,
-        "text": "非常浪漫且充满魅力的地方。我们在这里散步，晚上看夜景简直是一绝，完全爱上了这里！"
-      },
-      {
-        "name": "Pedro Santos",
-        "date": "1年前",
-        "rating": 5,
-        "text": "这里的景色真的让人心情愉悦。你能看到精美的雕像和广阔的河景交织在一起。老桥本身也很迷人，周围老城区有很多咖啡馆。"
-      },
-      {
-        "name": "Teresa Ferreira",
-        "date": "半年多前",
-        "rating": 4,
-        "text": "很值得一游！从海德堡老城区走过来很方便。建议穿舒适的鞋，因为全是石板路。当地人很友好，有很多适合拍照的绝佳地点。"
-      },
-      {
-        "name": "Rui Almeida",
-        "date": "3个月前",
-        "rating": 5,
-        "text": "仿佛回到了中世纪！每一块石头、每一处雕塑都有它的故事。在桥上欣赏河景的时候感觉时间都静止了。海德堡的必去之地。"
-      },
-      {
-        "name": "Catarina Gomes",
-        "date": "2个月前",
-        "rating": 5,
-        "text": "美得难以用语言形容。无论是老桥铜像还是周围内卡河的风景，都让人流连忘返。特别推荐站在桥上看日落，虽然风有时比较大，但感觉最棒。"
-      }
-    ]
+    "title": "Google 地图评分",
+    "declaration": "本网站为独立信息项目，不发布任何访客评价。您可通过下方链接查看海德堡老桥在 Google 地图上的最新评分。",
+    "countLabel": "条 Google 地图评价",
+    "moreReviews": "在 Google 地图上查看老桥"
   },
   "mapSection": {
     "title": "位置与交通：海德堡老桥 (Alte Brücke)",
@@ -474,6 +425,9 @@
     },
     "badge": "海德堡旅行指南",
     "title": "老桥周边的海德堡必去景点",
+    "overviewTitle": "一览：距老桥步行距离",
+    "colName": "景点",
+    "colDistance": "距老桥步行",
     "intro": [
       "海德堡是德国最美丽的城市之一，而老桥恰好位于众多著名景点的中心。从这里出发，步行几分钟即可到达海德堡城堡、哲学家小径和老城区。",
       "这份指南为您梳理海德堡最重要的景点，标注与老桥的距离、门票与开放时间提示，并提供实用的游览建议。"
