@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { SITE_URL, SITE_LOCALES } from '@/lib/seo';
+import { guides } from '@/lib/attraction-guides';
 
 export const dynamic = 'force-static';
 
@@ -49,6 +50,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModified,
         changeFrequency: page.changeFrequency,
         priority: page.priority,
+      });
+    }
+    for (const slug of Object.keys(guides)) {
+      sitemap.push({
+        url: `${SITE_URL}/${locale}/attractions/${slug}`,
+        lastModified,
+        changeFrequency: 'monthly',
+        priority: 0.8,
       });
     }
   }

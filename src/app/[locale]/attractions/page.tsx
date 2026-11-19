@@ -13,6 +13,7 @@ import {
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import type { Metadata } from 'next';
+import { guides, type GuideSlug, type GuideLocale } from '@/lib/attraction-guides';
 
 export async function generateMetadata({
   params,
@@ -115,6 +116,7 @@ function AttractionsBody() {
   const items = (messages?.attractions?.items || []) as AttractionItem[];
   const tips = (messages?.attractions?.tips?.list || []) as string[];
   const home = homeHref(locale);
+  const guideSlugs = Object.keys(guides) as GuideSlug[];
 
   return (
     <>
@@ -245,6 +247,15 @@ function AttractionsBody() {
                   {item.description}
                 </p>
               </article>
+            ))}
+          </div>
+          <div className="mt-10 grid gap-4 sm:grid-cols-3">
+            {guideSlugs.map(slug => (
+              <a key={slug} href={`/${locale}/attractions/${slug}`} className="block rounded-xl p-5 transition-opacity hover:opacity-80" style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)' }}>
+                <h3 className="font-display text-lg font-semibold mb-2" style={{ color: 'var(--text-primary)' }}>{guides[slug][locale as GuideLocale].name}</h3>
+                <p className="text-sm mb-4" style={{ color: 'var(--text-secondary)' }}>{guides[slug][locale as GuideLocale].subtitle}</p>
+                <span className="font-medium" style={{ color: 'var(--accent)' }}>→</span>
+              </a>
             ))}
           </div>
         </div>
