@@ -221,6 +221,117 @@ export const guides = {
       faq: [['学生禁闭室入口在哪里？', '入口在老大学后侧 Augustinergasse 2。'], ['每天都开放吗？', '不是，季节时段及闭馆日请查看大学博物馆官网。'], ['可以参观历史礼堂吗？', '是否开放取决于博物馆运营、活动与现场参观规定。']],
     },
   },
+  brueckentor: {
+    map: 'https://www.google.com/maps/search/?api=1&query=Br%C3%BCckentor%20Am%20Br%C3%BCckentor%201%20Heidelberg',
+    source: 'https://ww2.heidelberg.de/Altstadt-Information/Sektor11/Sektor11o_Brueckentor.htm',
+    de: {
+      name: 'Brückentor der Alten Brücke', subtitle: 'Historische Türme am Zugang zur Altstadt',
+      intro: 'Das zweiturmige Brückentor markiert den Übergang von der Alten Brücke in Heidelbergs Altstadt. Wer von Norden über den Neckar kommt, sieht die Türme wie eine steinerne Schwelle vor den Gassen der Stadt. Neben dem Brückentor beginnt der Weg zur Steingasse und zum Marktplatz; schon dieser kurze Abschnitt verbindet Flusslandschaft und mittelalterliche Stadtstruktur.',
+      about: 'Das Brückentor ist ein historisches Stadttor und Kulturdenkmal im öffentlichen Straßenraum Heidelbergs. Die Stadt Heidelberg dokumentiert seine Baugeschichte und betreut den öffentlichen Bereich. Die Durchfahrt ist keine eigenständige Museumsausstellung.',
+      history: 'Das mittelalterliche Tor überstand Hochwasser und Eisgänge. Nach dem Bau der steinernen Brücke diente es unter anderem als Wächterhaus und Schuldgefängnis. 1788 erhielten die Türme ihre barocken Hauben anstelle der früheren Spitzdächer.',
+      features: ['Zwei Türme mit barocken Hauben', 'Direkter Übergang zwischen Brücke und Altstadt', 'Historische Verteidigungs- und Torfunktion'],
+      plan: 'Vom nördlichen Ufer über die Alte Brücke laufen, die Torfront aus der Brückenachse betrachten und durch das Tor in die Altstadt gehen. Nebenan einen Abstecher zum Brückenaffen machen; anschließend der Steingasse zum Marktplatz folgen.',
+      photo: 'Aus der Mitte der Alten Brücke entsteht eine symmetrische Ansicht der Türme. Seitlich der Toreinfahrt sind Details des Mauerwerks und der barocken Dächer gut zu erkennen.',
+      transport: 'Direkt am südlichen Brückenkopf, erreichbar von der Altstadt zu Fuß über Steingasse. Keine direkte Autozufahrt für einen touristischen Fotostopp einplanen.',
+      faq: [['Ist das Brückentor frei zugänglich?', 'Der öffentliche Durchgang ist normalerweise ohne Eintritt nutzbar.'], ['Kann man auf die Türme?', 'Ein regulärer touristischer Turmaufstieg ist nicht Teil des öffentlichen Durchgangs.'], ['Was liegt gleich daneben?', 'Der Brückenaffe steht westlich des Tores; Steingasse führt weiter zum Marktplatz.']],
+    },
+    en: {
+      name: 'Old Bridge Gate', subtitle: 'Historic twin towers at the Old Town entrance',
+      intro: 'The twin-towered Bridge Gate marks the transition from the Old Bridge into Heidelberg Old Town. Approaching across the Neckar, visitors see the towers framing the narrow streets beyond. Steingasse and Market Square lie just past the gate, making this a natural starting point for an Old Town walk.',
+      about: 'The Bridge Gate is a historic city gate and listed monument in Heidelberg’s public streetscape. The City of Heidelberg documents the architecture and maintains the surrounding public area. It is not a separately ticketed museum.',
+      history: 'The medieval gate survived flooding and ice flows. After the stone bridge was built, it served as a guardhouse and debtor’s prison. In 1788 the pointed roofs were replaced by Baroque tower caps.',
+      features: ['Two towers with Baroque roof caps', 'Direct link between bridge and Old Town', 'Traces of the medieval city defences'],
+      plan: 'Cross the Old Bridge from the north bank and look back at the gate along the bridge axis. Walk through the passage, stop at the nearby Bridge Monkey and follow Steingasse towards Market Square.',
+      photo: 'The bridge centreline provides a symmetrical tower view; from the side, inspect the masonry and roof details.',
+      transport: 'At the southern end of the Old Bridge, reached on foot from Steingasse. Avoid navigating a car into the pedestrian approach for a photo stop.',
+      faq: [['Is passage free?', 'The public passage is normally free.'], ['Can I climb the towers?', 'A regular tourist tower climb is not part of the public passage.'], ['What is nearby?', 'The Bridge Monkey stands to the west; Steingasse leads towards Market Square.']],
+    },
+    zh: {
+      name: '海德堡老桥门', subtitle: '连接内卡河与老城的双塔城门',
+      intro: '老桥门位于海德堡老桥南端，两座塔楼形成通往老城区的石砌门户。从内卡河北岸走过老桥时，城门正好框住后方的历史街巷。穿过门洞便可进入 Steingasse，继续前往集市广场，是老桥步行游览最自然的起点。',
+      about: '老桥门是海德堡公共街道上的历史城门与文化古迹。海德堡市记录其建筑历史并维护周围公共空间。门洞是通行空间，而非单独售票的博物馆。',
+      history: '这座中世纪城门经历洪水与流冰仍保留下来。石桥建成后曾作为守卫所及债务囚禁设施。1788 年，塔顶的尖锥形屋顶被巴洛克式塔帽取代。',
+      features: ['带巴洛克塔帽的双塔造型', '老桥与老城的直接连接处', '中世纪城市防御体系遗迹'],
+      plan: '从北岸跨过老桥，沿桥轴观察双塔立面，再穿门洞进入老城。可先到门旁的桥猴雕塑停留，然后沿 Steingasse 前往集市广场。',
+      photo: '从老桥中央适合拍摄对称的双塔画面；从侧面可观察石砌墙体与塔顶细节。',
+      transport: '位于老桥南端，从老城 Steingasse 步行可达；不建议为拍照驾车进入步行区域。',
+      faq: [['老桥门需要门票吗？', '公共门洞通常免费通行。'], ['可以登塔吗？', '公共通道不包含常规游客登塔项目。'], ['附近还有什么？', '桥猴雕塑位于城门西侧，沿 Steingasse 可抵集市广场。']],
+    },
+  },
+  brueckenaffe: {
+    map: 'https://www.google.com/maps/search/?api=1&query=Heidelberger%20Br%C3%BCckenaffe%20Am%20Br%C3%BCckentor',
+    source: 'https://ww2.heidelberg.de/Altstadt-Information/Sektor07/Sektor07_brueckenaffe.htm',
+    de: {
+      name: 'Heidelberger Brückenaffe', subtitle: 'Spiegel und Stadtsatire am Brückentor',
+      intro: 'Direkt westlich des Brückentores sitzt der Heidelberger Brückenaffe. Die Bronzeplastik hält den Vorübergehenden einen Spiegel vor – eine kleine, oft übersehene Begegnung mit dem Humor der Stadt. Wer von der Brücke in die Altstadt läuft, kann hier die großen Ansichten von Fluss und Schloss gegen ein auffallend detailreiches Kunstwerk eintauschen.',
+      about: 'Der Brückenaffe ist ein öffentliches Kunstobjekt im Heidelberger Stadtraum. Die Stadt Heidelberg führt ihn in ihren Denkmäler- und Altstadtinformationen und ist Ansprechpartnerin für den umgebenden öffentlichen Bereich. Das Kunstwerk ist keine Einrichtung mit eigenen Öffnungszeiten.',
+      history: 'Eine Darstellung des Brückenaffen ist in Heidelberg schon seit dem 15. Jahrhundert belegt. Die heutige Figur greift die ältere Tradition des spöttischen Spiegels auf und lädt dazu ein, über Eitelkeit und Selbstbetrachtung nachzudenken.',
+      features: ['Bronzefigur mit Spiegel', 'Historischer Bezug zu früheren Brückenaffen', 'Unmittelbare Nachbarschaft zum Brückentor'],
+      plan: 'Am südlichen Brückenkopf zunächst die Turmfassade betrachten. Dann westlich des Tores die Figur und ihren Spiegel aufsuchen. Zum Abschluss die Alte Brücke mit dem Schloss im Hintergrund fotografieren und über Steingasse weitergehen.',
+      photo: 'Seitlich fotografiert werden Spiegel und Figur gleichzeitig sichtbar. Für ein Ortsbild etwas Abstand wählen, damit das Brückentor im Hintergrund erkennbar bleibt.',
+      transport: 'Zu Fuß am Brückentor unmittelbar neben der Alten Brücke. Der öffentliche Weg ist schmal und kann stark besucht sein.',
+      faq: [['Wo steht der Affe?', 'Westlich des Brückentores am südlichen Ende der Alten Brücke.'], ['Braucht man Eintritt?', 'Nein, die Skulptur steht im öffentlichen Straßenraum.'], ['Was bedeutet der Spiegel?', 'Er ist Teil einer langen satirischen Tradition und richtet den Blick auf die Betrachter selbst.']],
+    },
+    en: {
+      name: 'Heidelberg Bridge Monkey', subtitle: 'A bronze mirror and an old town joke',
+      intro: 'Just west of the Bridge Gate sits the Heidelberg Bridge Monkey. The bronze figure holds up a mirror to passers-by, offering a playful contrast with the grand river and castle views nearby. It is a small stop with a distinctive story right at the Old Town entrance.',
+      about: 'The Bridge Monkey is public artwork in Heidelberg’s streetscape. The City of Heidelberg includes it in its monument and Old Town information. It is not a staffed attraction with separate opening hours.',
+      history: 'Heidelberg had an image of a bridge monkey as early as the fifteenth century. The present sculpture continues a satirical tradition in which a mirror asks visitors to consider vanity and themselves.',
+      features: ['Bronze sculpture holding a mirror', 'A tradition dating back centuries', 'Position beside the Bridge Gate'],
+      plan: 'See the Bridge Gate towers at the south end of the bridge, then step west to examine the monkey and mirror. Photograph the Old Bridge with the castle backdrop before continuing into Steingasse.',
+      photo: 'A side angle captures figure and mirror together; step back slightly to include the gate as location context.',
+      transport: 'On foot beside the Bridge Gate at the southern bridgehead. The pavement can be crowded.',
+      faq: [['Where is the monkey?', 'Immediately west of the Bridge Gate at the Old Bridge’s south end.'], ['Is it free?', 'Yes, it stands in a public pedestrian area.'], ['Why a mirror?', 'It continues an older tradition of gentle satire aimed at the observer.']],
+    },
+    zh: {
+      name: '海德堡桥猴雕塑', subtitle: '老桥门旁举着镜子的城市趣味地标',
+      intro: '海德堡桥猴位于老桥门西侧，青铜猴像把镜子举向路过的游客，与不远处宏伟的河景、城堡形成有趣对比。它虽然体积不大，却把海德堡的历史幽默与步行体验结合在一起，是进入老城前值得停留的细节。',
+      about: '桥猴是海德堡公共街道上的艺术作品。海德堡市在古迹与老城资料中介绍这座雕塑，并管理其周围公共空间。作品没有独立售票或固定开放时段。',
+      history: '海德堡在 15 世纪已有桥猴形象的记载。今天的雕塑延续举镜讽喻的传统，提醒观看者反思虚荣与自我。',
+      features: ['手持镜子的青铜猴像', '延续数百年的桥猴传说', '紧靠老桥门的街道位置'],
+      plan: '先从老桥南端观察城门双塔，再到门西侧寻找桥猴与镜子。随后可拍摄以城堡为背景的老桥景观，并沿 Steingasse 进入老城区。',
+      photo: '侧面取景能同时呈现猴像与镜子；后退少许将老桥门带入画面，更容易交代地点。',
+      transport: '位于老桥南端桥门旁，适合步行前往；狭窄步道在人多时需礼让。',
+      faq: [['桥猴在哪里？', '老桥南端桥门西侧。'], ['需要门票吗？', '不需要，雕塑位于公共步行区域。'], ['镜子代表什么？', '它延续了以镜子讽喻观察者的历史传统。']],
+    },
+  },
+  jesuitenkirche: {
+    map: 'https://www.google.com/maps/search/?api=1&query=Jesuitenkirche%20Heidelberg%20Merianstra%C3%9Fe',
+    source: 'https://www.heidelberg-marketing.de/attraktion/jesuitenkirche-c389dfbfa1',
+    de: {
+      name: 'Jesuitenkirche Heidelberg', subtitle: 'Barocke Kirchenarchitektur im Jesuitenviertel',
+      intro: 'Die Jesuitenkirche liegt wenige Gehminuten von der Hauptstraße entfernt im historischen Jesuitenviertel. Im Vergleich zur gotischen Heiliggeistkirche fällt ihre helle barocke Raumwirkung auf. Ein Spaziergang zwischen beiden Kirchen zeigt, wie unterschiedlich Sakralarchitektur das Heidelberger Stadtbild prägt.',
+      about: 'Die Jesuitenkirche ist ein katholischer Kirchenraum mit laufender kirchlicher Nutzung. Die zuständige Kirchengemeinde verantwortet Gottesdienste und Zugang; Heidelberg Marketing führt die Kirche als Sehenswürdigkeit. Besucher richten sich nach Gottesdiensten und aktuellen Aushängen.',
+      history: 'Der Kirchenbau gehört zur barocken Entwicklung Heidelbergs im Umfeld des Jesuitenordens. Seine Architektur und der benachbarte ehemalige Kollegbereich erinnern an den Einfluss religiöser Bildungseinrichtungen auf die Altstadt.',
+      features: ['Barocke Fassade und heller Innenraum', 'Lage im historischen Jesuitenviertel', 'Kontrast zur gotischen Heiliggeistkirche'],
+      plan: 'Vom Universitätsplatz in Richtung Merianstraße gehen, zunächst die Fassade betrachten und bei geöffneter Kirche den Innenraum ruhig erkunden. Danach zur Heiliggeistkirche und zum Marktplatz weitergehen.',
+      photo: 'Die Fassade mit dem umgebenden Platz fotografieren. Im Innenraum auf Symmetrie und Licht achten; vor Aufnahmen die Hausordnung prüfen.',
+      transport: 'Von Hauptstraße und Universitätsplatz in wenigen Minuten zu Fuß erreichbar. Die Altstadt ist in diesem Bereich vor allem Fußgängerraum.',
+      faq: [['Kann man die Kirche besichtigen?', 'Wenn keine Gottesdienste oder Veranstaltungen entgegenstehen und die Kirche geöffnet ist.'], ['Ist sie dieselbe wie die Heiliggeistkirche?', 'Nein, es sind zwei unterschiedliche Kirchen mit verschiedener Architektur und Konfession.'], ['Wie viel Zeit einplanen?', 'Für einen ruhigen Kurzbesuch etwa 20–40 Minuten.']],
+    },
+    en: {
+      name: 'Jesuit Church Heidelberg', subtitle: 'Baroque architecture in the Jesuit Quarter',
+      intro: 'The Jesuit Church stands a short walk from Hauptstraße in Heidelberg’s historic Jesuit Quarter. Its bright Baroque interior contrasts with the Gothic Church of the Holy Spirit. Visiting both illustrates how different eras of religious architecture shaped the Old Town.',
+      about: 'The Jesuit Church remains an active Catholic church. The responsible parish manages services and access, while Heidelberg Marketing lists it as a visitor attraction. Sightseeing should respect worship and current notices.',
+      history: 'The church belongs to the Baroque development of Heidelberg associated with the Jesuit order. Its architecture and neighbouring former college buildings reflect the role of religious education in the city.',
+      features: ['Baroque façade and luminous interior', 'Historic Jesuit Quarter setting', 'Contrast with the Gothic Church of the Holy Spirit'],
+      plan: 'Walk from University Square towards Merianstraße. Study the exterior, then enter quietly if open. Continue to the Church of the Holy Spirit and Market Square.',
+      photo: 'Frame the façade with its streetscape; inside, look for symmetry and light, following posted photography rules.',
+      transport: 'A short walk from Hauptstraße and University Square. Much of the area is pedestrian oriented.',
+      faq: [['Can visitors enter?', 'When the church is open and services or events do not prevent sightseeing.'], ['Is this the Church of the Holy Spirit?', 'No. They are distinct churches from different architectural traditions.'], ['How long should I allow?', 'About 20–40 minutes for a short visit.']],
+    },
+    zh: {
+      name: '海德堡耶稣会教堂', subtitle: '耶稣会街区的巴洛克式宗教建筑',
+      intro: '耶稣会教堂位于海德堡历史耶稣会街区，从主街步行几分钟可达。明亮的巴洛克式空间与圣灵教堂的哥特式结构形成鲜明对照。把两座教堂串成步行路线，可以观察不同历史时期的宗教建筑如何共同塑造老城风貌。',
+      about: '耶稣会教堂目前仍用于天主教宗教活动，由相关教会负责礼拜与开放安排；Heidelberg Marketing 将其列为旅游景点。观光应避开礼拜活动并遵守现场规定。',
+      history: '这座教堂属于海德堡与耶稣会相关的巴洛克时期城市发展。教堂与附近昔日学院建筑反映了宗教教育机构对老城历史的影响。',
+      features: ['巴洛克式立面与明亮内部', '历史耶稣会街区位置', '与哥特式圣灵教堂形成建筑对比'],
+      plan: '从大学广场步行前往 Merianstraße，先观察教堂立面，开放时安静参观内部；之后继续前往圣灵教堂和集市广场。',
+      photo: '从街区广场取景展示立面与周边环境；室内适合观察对称构图及光线，摄影须遵守现场规定。',
+      transport: '从主街与大学广场步行数分钟可达，该区域以步行为主。',
+      faq: [['可以入内参观吗？', '在教堂开放且没有礼拜或活动妨碍时可以。'], ['它是圣灵教堂吗？', '不是，两座教堂的建筑时期与宗教传统不同。'], ['建议停留多久？', '短途参观约 20–40 分钟。']],
+    },
+  },
 } as const;
 
 export type GuideSlug = keyof typeof guides;
@@ -232,6 +343,21 @@ export const guidePractical: Record<GuideSlug, {
   access: Record<GuideLocale, string>;
   routeStops: Record<GuideLocale, string[]>;
 }> = {
+  brueckentor: {
+    address: 'Am Brückentor 1, 69117 Heidelberg, Deutschland', duration: '15–30 min',
+    access: { de: 'Öffentlicher Durchgang ohne Eintritt; Verkehrs- und Veranstaltungshinweise beachten.', en: 'Public passage without admission; observe traffic and event notices.', zh: '公共门洞免费通行，注意交通与活动公告。' },
+    routeStops: { de: ['Von Norden die Alte Brücke überqueren', 'Das zweiturmige Tor aus der Brückenachse betrachten', 'Durch das Tor über Steingasse zum Marktplatz gehen'], en: ['Cross the Old Bridge from the north', 'View the twin towers along the bridge axis', 'Pass through to Steingasse and Market Square'], zh: ['从内卡河北岸跨过老桥', '沿桥轴观察双塔城门', '穿门洞经 Steingasse 前往集市广场'] },
+  },
+  brueckenaffe: {
+    address: 'Am Brückentor, 69117 Heidelberg, Deutschland', duration: '10–20 min',
+    access: { de: 'Skulptur im öffentlichen Straßenraum, ohne Eintritt.', en: 'Public street sculpture, no admission.', zh: '公共街道雕塑，无需门票。' },
+    routeStops: { de: ['Am südlichen Brückenkopf starten', 'Westlich des Brückentores den Affen und Spiegel ansehen', 'Über das Brückentor in die Altstadt weitergehen'], en: ['Start at the south end of the bridge', 'Find the monkey and mirror west of the gate', 'Continue through the gate into Old Town'], zh: ['从老桥南端起步', '在城门西侧观察猴像与镜子', '经老桥门进入老城'] },
+  },
+  jesuitenkirche: {
+    address: 'Merianstraße 2, 69117 Heidelberg, Deutschland', duration: '20–40 min',
+    access: { de: 'Aktive katholische Kirche; Besichtigung nach aktuellen Gemeindehinweisen.', en: 'Active Catholic church; visits depend on parish notices.', zh: '仍在使用的天主教堂，参观安排以教会公告为准。' },
+    routeStops: { de: ['Vom Universitätsplatz Richtung Merianstraße gehen', 'Fassade und geöffneten Innenraum betrachten', 'Zur Heiliggeistkirche und zum Marktplatz weitergehen'], en: ['Walk from University Square to Merianstraße', 'See the façade and interior when open', 'Continue to the Church of the Holy Spirit and Market Square'], zh: ['从大学广场走向 Merianstraße', '观察立面并在开放时参观内部', '继续步行至圣灵教堂与集市广场'] },
+  },
   philosophenweg: {
     address: 'Philosophenweg, 69120 Heidelberg, Deutschland', duration: '60–120 min',
     access: { de: 'Öffentlicher Spazierweg, grundsätzlich ohne Eintritt; temporäre Wegsperrungen beachten.', en: 'Public walking trail, generally without admission; temporary path closures are possible.', zh: '公共步道通常无需门票，部分路段可能因维护临时关闭。' },
@@ -265,6 +391,9 @@ export const guidePractical: Record<GuideSlug, {
 };
 
 export const guideHoursAndTickets: Record<GuideSlug, Record<GuideLocale, [string, string]>> = {
+  brueckentor: { de: ['Öffentlicher Durchgang ohne feste Besuchszeiten.', 'Kein Eintritt für den Durchgang.'], en: ['Public passage without fixed visiting hours.', 'No admission for the passage.'], zh: ['公共门洞没有固定售票时段。', '通行无需门票。'] },
+  brueckenaffe: { de: ['Im öffentlichen Straßenraum jederzeit von außen sichtbar.', 'Die öffentliche Skulptur ist kostenlos zu sehen.'], en: ['Visible from the public street at any time.', 'The sculpture has no admission charge.'], zh: ['位于公共街道，通常随时可从外部观赏。', '观赏雕塑不收费。'] },
+  jesuitenkirche: { de: ['Öffnungszeiten richten sich nach Gottesdiensten und Gemeindeprogramm.', 'Zugang und mögliche Sonderangebote nach aktueller Kirchenregelung.'], en: ['Visiting hours depend on services and parish activities.', 'Access and any special offerings follow current church rules.'], zh: ['开放时段依礼拜及教会活动安排。', '参观及特殊项目依教会现行规定。'] },
   philosophenweg: {
     de: ['Öffentlicher Weg ohne reguläre Kassenöffnungszeiten; Sperrungen möglich.', 'Für den Spazierweg ist kein Eintritt vorgesehen.'],
     en: ['Public trail without fixed ticket-office hours; temporary closures are possible.', 'No admission ticket for the public trail.'],
@@ -299,6 +428,18 @@ export const guideHoursAndTickets: Record<GuideSlug, Record<GuideLocale, [string
 
 // Site-owned copies of location-matched real photographs. Existing gallery files are untouched.
 export const guidePhotos: Partial<Record<GuideSlug, { src: string; credit: string }[]>> = {
+  brueckentor: [
+    { src: '/attractions/brueckentor.jpg', credit: 'Heidelberg - Alte Brücke - Brückentor II.jpg' },
+    { src: '/attractions/brueckentor-towers.jpg', credit: 'Heidelberg - Alte Brücke - Brückentor I.jpg' },
+  ],
+  brueckenaffe: [
+    { src: '/attractions/brueckenaffe.jpg', credit: 'Heidelberg old bridge monkey (Sep 2019) - 1.jpg' },
+    { src: '/attractions/brueckenaffe-detail.jpg', credit: 'Heidelberg old bridge monkey (Sep 2019) - 3.jpg' },
+  ],
+  jesuitenkirche: [
+    { src: '/attractions/jesuitenkirche.jpg', credit: '20230315 Jesuitenkirche Heidelberg.jpg' },
+    { src: '/attractions/jesuitenkirche-interior.jpg', credit: 'Nave organ - Jesuitenkirche - Heidelberg - Germany 2022.jpg' },
+  ],
   philosophenweg: [
     { src: '/attractions/philosophenweg.jpg', credit: 'HeidelbergPhilosophenweg.JPG' },
     { src: '/attractions/philosophenweg-view.jpg', credit: 'Heidelberg Philosophenweg vom Burgweg.jpg' },

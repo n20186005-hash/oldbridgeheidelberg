@@ -13,6 +13,27 @@ export default function TopSights() {
   const messages = useMessages() as any;
   const items = (messages?.topSights?.items || []) as SightItem[];
   const guideSlugs = ['schloss', 'koenigstuhl', 'philosophenweg', 'altstadt', 'heiliggeistkirche', 'universitaet'];
+  const additional = {
+    de: [
+      { name: 'Brückentor', distance: 'Direkt an der Brücke', desc: 'Historische Tortürme mit Blick auf den Neckar.', slug: 'brueckentor' },
+      { name: 'Heidelberger Brückenaffe', distance: 'Am Brückentor', desc: 'Die bekannte Bronzefigur am Zugang zur Alten Brücke.', slug: 'brueckenaffe' },
+      { name: 'Jesuitenkirche', distance: 'In der Altstadt', desc: 'Barocke Kirche mit hellem Innenraum nahe dem Universitätsplatz.', slug: 'jesuitenkirche' },
+    ],
+    en: [
+      { name: 'Bridge Gate', distance: 'At the bridge', desc: 'Historic gate towers overlooking the Neckar.', slug: 'brueckentor' },
+      { name: 'Heidelberg Bridge Monkey', distance: 'By the gate', desc: 'The famous bronze sculpture beside the Old Bridge entrance.', slug: 'brueckenaffe' },
+      { name: 'Jesuit Church', distance: 'Old Town', desc: 'A light-filled Baroque church near University Square.', slug: 'jesuitenkirche' },
+    ],
+    zh: [
+      { name: '海德堡老桥门', distance: '老桥入口', desc: '守护内卡河畔的历史双塔城门。', slug: 'brueckentor' },
+      { name: '海德堡桥猴', distance: '老桥门旁', desc: '老桥入口的著名青铜雕塑与拍照地标。', slug: 'brueckenaffe' },
+      { name: '耶稣会教堂', distance: '老城区', desc: '大学广场附近明亮而庄严的巴洛克教堂。', slug: 'jesuitenkirche' },
+    ],
+  }[locale as 'de' | 'en' | 'zh'] || [];
+  const cards = [
+    ...items.map((item, index) => ({ ...item, slug: guideSlugs[index] })),
+    ...additional,
+  ];
 
   return (
     <section id="top-sights" className="section-padding" style={{ background: 'var(--bg-tertiary)' }}>
@@ -29,10 +50,10 @@ export default function TopSights() {
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-          {items.map((item, index) => (
+          {cards.map((item, index) => (
             <a
               key={item.name}
-              href={`/${locale}/attractions/${guideSlugs[index]}`}
+              href={`/${locale}/attractions/${item.slug}`}
               className="rounded-xl p-6"
               style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)' }}
             >
