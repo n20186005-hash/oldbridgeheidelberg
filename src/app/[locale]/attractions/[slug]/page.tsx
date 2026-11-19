@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { setRequestLocale } from 'next-intl/server';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { guides, type GuideLocale, type GuideSlug } from '@/lib/attraction-guides';
+import { guides, guidePhotos, type GuideLocale, type GuideSlug } from '@/lib/attraction-guides';
 import { SITE_URL, localizedAlternates, SITE_LOCALES } from '@/lib/seo';
 
 const isGuide = (slug: string): slug is GuideSlug => Object.prototype.hasOwnProperty.call(guides, slug);
@@ -40,6 +40,7 @@ export default async function GuidePage({ params }: Props) {
   const guide = guides[slug][locale];
   const u = ui[locale];
   const others = (Object.keys(guides) as GuideSlug[]).filter(key => key !== slug);
+  const photos = guidePhotos[slug] || [];
   const h2 = 'font-display text-2xl sm:text-3xl font-semibold mb-4';
   const text = 'leading-relaxed text-base sm:text-lg';
   const siteUrl = `${SITE_URL}/${locale}/attractions/${slug}`;
@@ -63,6 +64,14 @@ export default async function GuidePage({ params }: Props) {
         </div>
       </section>
       <div className="max-w-5xl mx-auto px-4 sm:px-6 py-14 space-y-16" style={{ color: 'var(--text-primary)' }}>
+        {photos.length > 0 && <section aria-label={guide.name} className="grid sm:grid-cols-2 gap-5">
+          {photos.map((photo, index) => <figure key={photo.src}>
+            <img src={photo.src} alt={`${guide.name} — ${index + 1}`} loading="lazy" className="w-full h-64 sm:h-72 object-cover rounded-xl" />
+            <figcaption className="text-xs mt-2" style={{ color: 'var(--text-muted)' }}>
+              Wikimedia Commons · <a className="underline" href={`https://commons.wikimedia.org/wiki/File:${encodeURIComponent(photo.credit.replaceAll(' ', '_'))}`} target="_blank" rel="noopener noreferrer">{photo.credit}</a>
+            </figcaption>
+          </figure>)}
+        </section>}
         <section><h2 className={h2}>{u.explore}</h2><p className={text}>{guide.intro}</p>
           <div className="grid md:grid-cols-2 gap-8 mt-10">
             <div><h3 className="text-xl font-semibold mb-3">{u.tips}</h3><p className={text}>{guide.plan}</p></div>
