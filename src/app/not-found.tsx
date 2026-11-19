@@ -16,12 +16,7 @@ export default function NotFound() {
       }}
     >
       <p style={{ fontSize: '5rem', fontWeight: 700, margin: 0, lineHeight: 1 }}>404</p>
-      <h1 style={{ fontSize: '1.5rem', margin: '0.5rem 0 1rem', color: '#1f2937' }}>
-        This page could not be found
-      </h1>
-      <p style={{ color: '#6b7280', margin: '0 0 1.5rem' }}>
-        Die Seite wurde nicht gefunden. Zurück zur Startseite:
-      </p>
+      <h1 style={{ fontSize: '1.5rem', margin: '0.5rem 0 1rem', color: '#1f2937' }}>Old Bridge Heidelberg</h1>
       <a
         href="/de"
         style={{
@@ -34,7 +29,7 @@ export default function NotFound() {
           textDecoration: 'none',
         }}
       >
-        Old Bridge Heidelberg – Startseite
+        Old Bridge Heidelberg
       </a>
     </main>
   );

@@ -16,7 +16,7 @@
     "title": "Old Bridge Heidelberg",
     "subtitle": "海德堡 · 德国",
     "rating": "4.8",
-    "reviewCount": "18,493",
+    "reviewCount": "18,634",
     "hours": "全天开放",
     "openMaps": "查看位置",
     "imageAlt": "海德堡老桥（Old Bridge Heidelberg）— 内卡河上的全景，德国海德堡"
@@ -641,6 +641,42 @@
       }
     ]
   },
+  "accessibility": { "language": "切换语言", "theme": "切换主题外观", "closeGallery": "关闭图片画廊", "previousPhoto": "上一张照片", "nextPhoto": "下一张照片", "photoAltSuffix": "德国海德堡老桥", "galleryFallback": "海德堡老桥", "cookieToggle": "切换 Cookie 设置：{label}", "mapFrame": "Google 地图－海德堡老桥" },
+  "siteUi": { "since": "自 1284 年起", "notFoundTitle": "页面不存在", "notFoundText": "无法访问该页面地址。", "notFoundHome": "返回首页" },
+  "moreSights": [ { "slug": "brueckentor", "name": "海德堡老桥门", "distance": "老桥入口", "desc": "守护内卡河畔的历史双塔城门。" }, { "slug": "brueckenaffe", "name": "海德堡桥猴", "distance": "老桥门旁", "desc": "老桥入口的著名青铜雕塑与拍照地标。" }, { "slug": "jesuitenkirche", "name": "耶稣会教堂", "distance": "老城区", "desc": "大学广场附近明亮而庄严的巴洛克教堂。" }, { "slug": "studentenkarzer", "name": "学生禁闭室", "distance": "大学街区", "desc": "保留历史学生涂鸦的大学禁闭室。" } ],
+  "guideUi": {
+    "back": "全部周边景点",
+    "explore": "探索景点",
+    "tips": "游览建议",
+    "highlights": "景区特色",
+    "about": "关于景点与管理主体",
+    "basic": "基本资料",
+    "location": "所在地",
+    "time": "建议停留",
+    "access": "开放与门票",
+    "check": "请以现场最新公告为准",
+    "history": "历史与建筑特色",
+    "route": "步行路线",
+    "photo": "拍照机位",
+    "transit": "交通方式",
+    "faq": "常见问答",
+    "source": "资料来源与延伸阅读",
+    "map": "在 Google 地图查看位置",
+    "nearby": "更多周边景点",
+    "hours": "开放时间",
+    "tickets": "门票价格",
+    "notice": "游览须知",
+    "stay": "周边住宿建议",
+    "stayText": "住在老城区适合以步行为主的行程；中央车站周边则便于连接其他交通线路。住宿价格随季节和房态变化。",
+    "reviews": "游客评价",
+    "reviewsText": "最新游客评价与评价数量可通过该地点的 Google 地图页面查看。",
+    "rating": "Google 地图评分与评价",
+    "details": "发现魅力：历史、建筑与体验",
+    "cultural": "人文背景",
+    "observe": "现场观察重点",
+    "arrive": "分交通方式到达",
+    "transport": "交通与定位"
+  },
   "sources": {
     "title": "资料来源与延伸阅读",
     "subtitle": "本站为非营利独立科普信息站，内容主要依据公开、以官方为主的信息来源整理；出行前请以各官方渠道发布的最新信息（开放时间、票价、施工等）为准。",
@@ -672,7 +708,7 @@
       },
       {
         "label": "Google Maps：海德堡老桥地点页",
-        "desc": "游客公开评分（4.8 分、超过 18,000 条评价）与实景照片，便于出行参考。",
+        "desc": "Google 地图游客评分（4.8 分、18,634 条评价，2026 年 11 月同步）与实景照片，便于出行参考。",
         "url": "https://maps.app.goo.gl/E6sARLKkqxeeVSDH7"
       }
     ],

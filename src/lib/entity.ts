@@ -6,7 +6,7 @@ import { SITE_URL } from './seo';
  *
  * Fact sheet (Google Business / official sources, 2026):
  *   Old Bridge Heidelberg · Alte Brücke, 69117 Heidelberg, Germany
- *   Rating 4.8 (18,493 Google reviews) · Pedestrian bridge, free access 24/7
+ *   Rating 4.8 (18,634 Google reviews, November 2026) · Pedestrian bridge, free access 24/7
  */
 export const ATTRACTION = {
   /** Domain-aligned international name. */

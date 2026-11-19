@@ -3,6 +3,7 @@ import { ATTRACTION } from '@/lib/entity';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
+  const a11y = useTranslations('accessibility');
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -55,7 +56,7 @@ export default function MapEmbed() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title="Google Maps - Old Bridge Heidelberg, Alte Brücke, 69117 Heidelberg"
+            title={a11y('mapFrame')}
           />
         </div>
 

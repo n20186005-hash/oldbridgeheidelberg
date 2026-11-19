@@ -27,18 +27,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-const ui = {
-  de: { back: 'Alle Sehenswürdigkeiten', explore: 'Entdecken', tips: 'Besuch planen', highlights: 'Sehenswertes', about: 'Über diesen Ort und seine Betreuung', basic: 'Grundinformationen', location: 'Standort', time: 'Empfohlene Besuchsdauer', access: 'Zugang und Eintritt', check: 'Aktuelle Hinweise vor Ort prüfen', history: 'Geschichte und Architektur', route: 'Spazierroute', photo: 'Fotospots', transit: 'Anreise', faq: 'Häufige Fragen', source: 'Quelle & weitere Informationen', map: 'Standort auf Google Maps', nearby: 'Weitere Sehenswürdigkeiten', hours: 'Öffnungszeiten', tickets: 'Eintrittspreise', notice: 'Hinweise für Besucher', stay: 'Übernachten in der Nähe', stayText: 'Unterkünfte in der Altstadt eignen sich für Spaziergänge zu Fuß; rund um den Hauptbahnhof gibt es zusätzliche Verkehrsanbindungen. Preise hängen von Saison und Verfügbarkeit ab.', reviews: 'Bewertungen', reviewsText: 'Aktuelle Bewertungen und die Zahl der Rezensionen finden Sie direkt auf der jeweiligen Google-Maps-Ortsseite.', rating: 'Google-Maps-Bewertung und Rezensionen', details: 'Geschichte, Architektur und Erlebnisse', cultural: 'Kulturelle Bedeutung', observe: 'Was vor Ort auffällt', arrive: 'Anreise nach Verkehrsmittel', transport: 'Verkehr und Navigation' },
-  en: { back: 'All attractions', explore: 'Explore', tips: 'Plan your visit', highlights: 'Highlights', about: 'About this place and its management', basic: 'Essential information', location: 'Location', time: 'Suggested visit length', access: 'Access and admission', check: 'Check current notices on site', history: 'History and architecture', route: 'Walking itinerary', photo: 'Photo viewpoints', transit: 'Getting there', faq: 'Frequently asked questions', source: 'Source and further information', map: 'Open in Google Maps', nearby: 'More attractions', hours: 'Opening hours', tickets: 'Admission prices', notice: 'Visitor guidance', stay: 'Where to stay nearby', stayText: 'Old Town accommodation suits travellers exploring on foot; the main station area provides other transport connections. Prices depend on dates and availability.', reviews: 'Visitor reviews', reviewsText: 'See the place listing on Google Maps for current reviews and review counts.', rating: 'Google Maps rating and reviews', details: 'History, architecture and experience', cultural: 'Cultural significance', observe: 'What to look for', arrive: 'Arrival by transport mode', transport: 'Transport and navigation' },
-  zh: { back: '全部周边景点', explore: '探索景点', tips: '游览建议', highlights: '景区特色', about: '关于景点与管理主体', basic: '基本资料', location: '所在地', time: '建议停留', access: '开放与门票', check: '请以现场最新公告为准', history: '历史与建筑特色', route: '步行路线', photo: '拍照机位', transit: '交通方式', faq: '常见问答', source: '资料来源与延伸阅读', map: '在 Google 地图查看位置', nearby: '更多周边景点', hours: '开放时间', tickets: '门票价格', notice: '游览须知', stay: '周边住宿建议', stayText: '住在老城区适合以步行为主的行程；中央车站周边则便于连接其他交通线路。住宿价格随季节和房态变化。', reviews: '游客评价', reviewsText: '最新游客评价与评价数量可通过该地点的 Google 地图页面查看。', rating: 'Google 地图评分与评价', details: '发现魅力：历史、建筑与体验', cultural: '人文背景', observe: '现场观察重点', arrive: '分交通方式到达', transport: '交通与定位' },
-} as const;
-
 export default async function GuidePage({ params }: Props) {
   const { locale, slug } = await params;
   if (!isLocale(locale) || !isGuide(slug)) notFound();
   setRequestLocale(locale);
   const guide = guides[slug][locale];
-  const u = ui[locale];
+  const u = (await import(`@/messages/${locale}.json`)).default.guideUi;
   const others = (Object.keys(guides) as GuideSlug[]).filter(key => key !== slug);
   const photos = guidePhotos[slug] || [];
   const practical = guidePractical[slug];

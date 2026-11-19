@@ -1,4 +1,4 @@
-import { useTranslations, useLocale, useMessages } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
 
 type HistoryItem = {
   period: string;
@@ -8,7 +8,7 @@ type HistoryItem = {
 
 export default function HistorySection() {
   const t = useTranslations('history');
-  const locale = useLocale();
+  const siteUi = useTranslations('siteUi');
   const messages = useMessages() as any;
   const timeline = (messages?.history?.timeline || []) as HistoryItem[];
   const facts = (messages?.history?.facts || []) as string[];
@@ -27,7 +27,7 @@ export default function HistorySection() {
             className="text-xs font-medium rounded-full px-3 py-1"
             style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)', color: 'var(--text-secondary)' }}
           >
-            {locale === 'de' ? 'Seit 1284' : locale === 'zh' ? '1284 年至今' : 'Since 1284'}
+            {siteUi('since')}
           </span>
         </div>
         <p className="text-base sm:text-lg mb-6 max-w-3xl" style={{ color: 'var(--text-secondary)' }}>

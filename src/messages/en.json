@@ -16,7 +16,7 @@
     "title": "Old Bridge Heidelberg",
     "subtitle": "Heidelberg · Germany",
     "rating": "4.8",
-    "reviewCount": "18,493",
+    "reviewCount": "18,634",
     "hours": "Open 24 hours",
     "openMaps": "View on Google Maps",
     "imageAlt": "Old Bridge Heidelberg – main view over the River Neckar in Heidelberg, Germany"
@@ -641,6 +641,42 @@
       }
     ]
   },
+  "accessibility": { "language": "Switch language", "theme": "Toggle theme", "closeGallery": "Close gallery", "previousPhoto": "Previous photo", "nextPhoto": "Next photo", "photoAltSuffix": "Old Bridge Heidelberg, Germany", "galleryFallback": "Old Bridge Heidelberg", "cookieToggle": "Change cookie setting: {label}", "mapFrame": "Google Maps – Old Bridge Heidelberg" },
+  "siteUi": { "since": "Since 1284", "notFoundTitle": "Page not found", "notFoundText": "This address is unavailable.", "notFoundHome": "Back to home" },
+  "moreSights": [ { "slug": "brueckentor", "name": "Bridge Gate", "distance": "At the bridge", "desc": "Historic gate towers overlooking the Neckar." }, { "slug": "brueckenaffe", "name": "Heidelberg Bridge Monkey", "distance": "By the gate", "desc": "The famous bronze sculpture beside the Old Bridge entrance." }, { "slug": "jesuitenkirche", "name": "Jesuit Church", "distance": "Old Town", "desc": "A light-filled Baroque church near University Square." }, { "slug": "studentenkarzer", "name": "Student Jail", "distance": "University Quarter", "desc": "Historic detention rooms covered in student drawings." } ],
+  "guideUi": {
+    "back": "All attractions",
+    "explore": "Explore",
+    "tips": "Plan your visit",
+    "highlights": "Highlights",
+    "about": "About this place and its management",
+    "basic": "Essential information",
+    "location": "Location",
+    "time": "Suggested visit length",
+    "access": "Access and admission",
+    "check": "Check current notices on site",
+    "history": "History and architecture",
+    "route": "Walking itinerary",
+    "photo": "Photo viewpoints",
+    "transit": "Getting there",
+    "faq": "Frequently asked questions",
+    "source": "Source and further information",
+    "map": "Open in Google Maps",
+    "nearby": "More attractions",
+    "hours": "Opening hours",
+    "tickets": "Admission prices",
+    "notice": "Visitor guidance",
+    "stay": "Where to stay nearby",
+    "stayText": "Old Town accommodation suits travellers exploring on foot; the main station area provides other transport connections. Prices depend on dates and availability.",
+    "reviews": "Visitor reviews",
+    "reviewsText": "See the place listing on Google Maps for current reviews and review counts.",
+    "rating": "Google Maps rating and reviews",
+    "details": "History, architecture and experience",
+    "cultural": "Cultural significance",
+    "observe": "What to look for",
+    "arrive": "Arrival by transport mode",
+    "transport": "Transport and navigation"
+  },
   "sources": {
     "title": "Sources & Further Reading",
     "subtitle": "This independent information page is based on publicly accessible, predominantly official sources. Please always verify current details (opening hours, prices, works) on the official portals before your visit.",
@@ -672,7 +708,7 @@
       },
       {
         "label": "Google Maps – Old Bridge Heidelberg listing",
-        "desc": "Public visitor rating (4.8, over 18,000 reviews) and recent visitor photos for orientation.",
+        "desc": "Public Google Maps rating (4.8, 18,634 reviews, updated November 2026) and visitor photos for orientation.",
         "url": "https://maps.app.goo.gl/E6sARLKkqxeeVSDH7"
       }
     ],

@@ -16,7 +16,7 @@
     "title": "Alte Brücke Heidelberg (Karl-Theodor-Brücke)",
     "subtitle": "Heidelberg · Deutschland",
     "rating": "4.8",
-    "reviewCount": "18.493",
+    "reviewCount": "18.634",
     "hours": "24 Stunden geöffnet",
     "openMaps": "Standort ansehen",
     "imageAlt": "Alte Brücke (Old Bridge Heidelberg) – Panorama über den Neckar in Heidelberg, Deutschland"
@@ -641,6 +641,42 @@
       }
     ]
   },
+  "accessibility": { "language": "Sprache wechseln", "theme": "Darstellung umschalten", "closeGallery": "Bildergalerie schließen", "previousPhoto": "Vorheriges Foto", "nextPhoto": "Nächstes Foto", "photoAltSuffix": "Alte Brücke Heidelberg, Deutschland", "galleryFallback": "Alte Brücke Heidelberg", "cookieToggle": "Cookie-Einstellung ändern: {label}", "mapFrame": "Google Maps – Alte Brücke Heidelberg" },
+  "siteUi": { "since": "Seit 1284", "notFoundTitle": "Seite nicht gefunden", "notFoundText": "Diese Adresse ist nicht verfügbar.", "notFoundHome": "Zur Startseite" },
+  "moreSights": [ { "slug": "brueckentor", "name": "Brückentor", "distance": "Direkt an der Brücke", "desc": "Historische Tortürme mit Blick auf den Neckar." }, { "slug": "brueckenaffe", "name": "Heidelberger Brückenaffe", "distance": "Am Brückentor", "desc": "Die bekannte Bronzefigur am Zugang zur Alten Brücke." }, { "slug": "jesuitenkirche", "name": "Jesuitenkirche", "distance": "In der Altstadt", "desc": "Barocke Kirche mit hellem Innenraum nahe dem Universitätsplatz." }, { "slug": "studentenkarzer", "name": "Studentenkarzer", "distance": "Bei der Universität", "desc": "Historische Arrestzellen mit studentischer Wandkunst." } ],
+  "guideUi": {
+    "back": "Alle Sehenswürdigkeiten",
+    "explore": "Entdecken",
+    "tips": "Besuch planen",
+    "highlights": "Sehenswertes",
+    "about": "Über diesen Ort und seine Betreuung",
+    "basic": "Grundinformationen",
+    "location": "Standort",
+    "time": "Empfohlene Besuchsdauer",
+    "access": "Zugang und Eintritt",
+    "check": "Aktuelle Hinweise vor Ort prüfen",
+    "history": "Geschichte und Architektur",
+    "route": "Spazierroute",
+    "photo": "Fotospots",
+    "transit": "Anreise",
+    "faq": "Häufige Fragen",
+    "source": "Quelle & weitere Informationen",
+    "map": "Standort auf Google Maps",
+    "nearby": "Weitere Sehenswürdigkeiten",
+    "hours": "Öffnungszeiten",
+    "tickets": "Eintrittspreise",
+    "notice": "Hinweise für Besucher",
+    "stay": "Übernachten in der Nähe",
+    "stayText": "Unterkünfte in der Altstadt eignen sich für Spaziergänge zu Fuß; rund um den Hauptbahnhof gibt es zusätzliche Verkehrsanbindungen. Preise hängen von Saison und Verfügbarkeit ab.",
+    "reviews": "Bewertungen",
+    "reviewsText": "Aktuelle Bewertungen und die Zahl der Rezensionen finden Sie direkt auf der jeweiligen Google-Maps-Ortsseite.",
+    "rating": "Google-Maps-Bewertung und Rezensionen",
+    "details": "Geschichte, Architektur und Erlebnisse",
+    "cultural": "Kulturelle Bedeutung",
+    "observe": "Was vor Ort auffällt",
+    "arrive": "Anreise nach Verkehrsmittel",
+    "transport": "Verkehr und Navigation"
+  },
   "sources": {
     "title": "Quellen & weiterführende Informationen",
     "subtitle": "Diese unabhängige Informationsseite stützt sich auf öffentlich zugängliche, überwiegend offizielle Quellen. Bitte prüfe aktuelle Angaben (Öffnungszeiten, Preise, Baumaßnahmen) vor deinem Besuch auf den offiziellen Portalen.",
@@ -672,7 +708,7 @@
       },
       {
         "label": "Google Maps – Alte Brücke Heidelberg",
-        "desc": "Öffentliche Bewertungen (4,8 / über 18.400) und aktuelle Fotos von Besuchern zur Orientierung.",
+        "desc": "Öffentliche Google-Maps-Bewertung (4,8 / 18.634 Rezensionen, Stand November 2026) und Besucherfotos zur Orientierung.",
         "url": "https://maps.app.goo.gl/E6sARLKkqxeeVSDH7"
       }
     ],
