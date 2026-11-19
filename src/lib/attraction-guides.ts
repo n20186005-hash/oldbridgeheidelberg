@@ -226,8 +226,91 @@ export const guides = {
 export type GuideSlug = keyof typeof guides;
 export type GuideLocale = 'de' | 'en' | 'zh';
 
+export const guidePractical: Record<GuideSlug, {
+  address: string;
+  duration: string;
+  access: Record<GuideLocale, string>;
+  routeStops: Record<GuideLocale, string[]>;
+}> = {
+  philosophenweg: {
+    address: 'Philosophenweg, 69120 Heidelberg, Deutschland', duration: '60–120 min',
+    access: { de: 'Öffentlicher Spazierweg, grundsätzlich ohne Eintritt; temporäre Wegsperrungen beachten.', en: 'Public walking trail, generally without admission; temporary path closures are possible.', zh: '公共步道通常无需门票，部分路段可能因维护临时关闭。' },
+    routeStops: { de: ['Alte Brücke zur Neuenheimer Seite überqueren', 'Über den steilen Schlangenweg aufsteigen', 'Aussichten am Philosophenweg genießen und passende Rückroute wählen'], en: ['Cross the Old Bridge to Neuenheim', 'Climb the steep Schlangenweg steps', 'Enjoy viewpoints along the trail and choose a suitable return'], zh: ['从老桥跨至诺伊恩海姆一侧', '经陡峭的蛇径石阶上行', '沿哲学家小径观景并选择适当路线返回'] },
+  },
+  heiliggeistkirche: {
+    address: 'Hauptstraße 189, 69117 Heidelberg, Deutschland', duration: '20–40 min',
+    access: { de: 'Aktive Kirche. Öffnung, Gottesdienste und Turmzugang nach Aushang der Kirchengemeinde.', en: 'Active church. Check parish notices for opening, services and tower access.', zh: '仍在使用的教堂；开放时间、礼拜及登塔安排以教会公告为准。' },
+    routeStops: { de: ['Am Marktplatz die Außenfassade betrachten', 'Falls geöffnet, den Innenraum ruhig besuchen', 'Über die Steingasse zum Brückentor und zur Alten Brücke gehen'], en: ['Study the exterior from Market Square', 'Visit the interior quietly when open', 'Continue through Steingasse to the Bridge Gate and Old Bridge'], zh: ['先从集市广场观察教堂外立面', '开放时安静参观内部', '沿 Steingasse 前往老桥门与老桥'] },
+  },
+  schloss: {
+    address: 'Schlosshof 1, 69117 Heidelberg, Deutschland', duration: '90–180 min',
+    access: { de: 'Schlosshof und Ausstellungen mit geltenden Eintrittsregeln; Preise und Öffnungszeiten beim Betreiber prüfen.', en: 'Courtyard and exhibits follow current ticket rules; verify prices and hours with the operator.', zh: '城堡庭院及展区依现行票务规定开放，票价与时段以管理方为准。' },
+    routeStops: { de: ['Von der Altstadt zum Schlossberg oder mit der Bergbahn fahren', 'Terrassenpanorama und Renaissancefassaden betrachten', 'Schlosshof und zugängliche Ausstellungen besuchen'], en: ['Climb Schlossberg or take the funicular', 'See the panorama and Renaissance façades', 'Explore the courtyard and accessible exhibits'], zh: ['从老城登城堡山或乘山地缆车', '欣赏观景平台与文艺复兴立面', '进入庭院及开放展区'] },
+  },
+  koenigstuhl: {
+    address: 'Königstuhl, 69117 Heidelberg, Deutschland', duration: '90–180 min',
+    access: { de: 'Öffentliche Aussichtspunkte frei; die Bergbahn hat separate Tickets und Betriebszeiten.', en: 'Public lookouts are free; the mountain railway has separate tickets and service hours.', zh: '公共观景点免费；山地缆车另有票价及运行时间。' },
+    routeStops: { de: ['Bergbahn ab Kornmarkt nehmen', 'Über die Schlossstation zur Gipfelstation fahren', 'Aussichtspunkte und kurze Waldwege erkunden'], en: ['Board the railway at Kornmarkt', 'Continue via the castle station to the summit', 'Explore lookouts and short woodland paths'], zh: ['在 Kornmarkt 乘坐缆车', '经城堡站继续上行至山顶', '游览山顶观景点及短途林间步道'] },
+  },
+  altstadt: {
+    address: 'Hauptstraße / Marktplatz, 69117 Heidelberg, Deutschland', duration: '60–120 min',
+    access: { de: 'Öffentliche Straßen und Plätze ohne Eintritt; Museen und Führungen separat.', en: 'Public streets and squares are free; museums and guided tours charge separately.', zh: '公共街道与广场免费，博物馆及导览可能另行收费。' },
+    routeStops: { de: ['Am Brückentor beginnen und durch Steingasse zum Marktplatz laufen', 'Hauptstraße bis zum Universitätsplatz folgen', 'Alte Universität besuchen oder über Karlsplatz verlängern'], en: ['Start at the Bridge Gate and follow Steingasse to Market Square', 'Walk along Hauptstraße to University Square', 'Visit the Old University or extend to Karlsplatz'], zh: ['从老桥门经 Steingasse 到集市广场', '沿 Hauptstraße 步行至大学广场', '参观老大学或继续延伸至 Karlsplatz'] },
+  },
+  universitaet: {
+    address: 'Grabengasse 1 / Augustinergasse 2, 69117 Heidelberg, Deutschland', duration: '45–90 min',
+    access: { de: 'Universitätsmuseum und Karzer mit veröffentlichten Saisonzeiten und Eintrittsregeln; aktuelle Uniseite konsultieren.', en: 'Museum and Student Jail have published seasonal hours and admission rules; check the university website.', zh: '大学博物馆和学生禁闭室有分季开放时间与门票规定，请查询校方官网。' },
+    routeStops: { de: ['Universitätsplatz und Fassade der Alten Universität betrachten', 'Universitätsmuseum und Alte Aula nach Verfügbarkeit besuchen', 'Über Augustinergasse 2 zum Studentenkarzer gehen'], en: ['Begin at University Square and the Old University façade', 'See the museum and historic hall when accessible', 'Enter the Student Jail via Augustinergasse 2'], zh: ['从大学广场和老大学外观开始', '开放时参观博物馆与历史礼堂', '经 Augustinergasse 2 进入学生禁闭室'] },
+  },
+};
+
+export const guideHoursAndTickets: Record<GuideSlug, Record<GuideLocale, [string, string]>> = {
+  philosophenweg: {
+    de: ['Öffentlicher Weg ohne reguläre Kassenöffnungszeiten; Sperrungen möglich.', 'Für den Spazierweg ist kein Eintritt vorgesehen.'],
+    en: ['Public trail without fixed ticket-office hours; temporary closures are possible.', 'No admission ticket for the public trail.'],
+    zh: ['公共步道没有固定售票开放时段，可能临时封路。', '公共步道无需门票。'],
+  },
+  heiliggeistkirche: {
+    de: ['Besuchszeiten richten sich nach Gottesdiensten und Gemeindeprogramm.', 'Kirchenraum und Turmbesuch können unterschiedliche Regelungen haben.'],
+    en: ['Visiting hours depend on services and the parish schedule.', 'Church interior and tower access may have different admission rules.'],
+    zh: ['参观时段受礼拜与教会活动安排影响。', '教堂内部与登塔可能实行不同参观规定。'],
+  },
+  schloss: {
+    de: ['Öffnungszeiten der Schlossanlage und Ausstellungen beim Betreiber prüfen.', 'Für Schlosshof und ausgewählte Angebote gelten offizielle Schloss- und Kombitickets.'],
+    en: ['Check the operator for castle and exhibition opening hours.', 'Official castle and combined tickets apply to the courtyard and selected attractions.'],
+    zh: ['城堡园区及展览开放时间以管理方最新公告为准。', '城堡庭院及部分体验采用官方城堡票或联票。'],
+  },
+  koenigstuhl: {
+    de: ['Freie Außenbereiche sind nicht an die Betriebszeiten der Bergbahn gebunden.', 'Aussichtspunkte kostenlos; Bergbahnfahrt nach aktuellem Tarif.'],
+    en: ['Public outdoor viewpoints are separate from the railway timetable.', 'Lookouts are free; the mountain railway charges current fares.'],
+    zh: ['户外公共观景区域与缆车运行时段不同。', '公共观景点免费；缆车按运营方现行票价收费。'],
+  },
+  altstadt: {
+    de: ['Öffentliche Plätze ganztägig zugänglich; Geschäfte und Museen haben eigene Zeiten.', 'Für öffentliche Gassen und Plätze kein Eintritt.'],
+    en: ['Public squares are open throughout the day; shops and museums set their own hours.', 'No admission for public streets and squares.'],
+    zh: ['公共广场全天可通行，商店和博物馆各有营业时间。', '公共街道与广场免门票。'],
+  },
+  universitaet: {
+    de: ['Museum, Alte Aula und Studentenkarzer mit saisonalen Öffnungszeiten und Schließtagen.', 'Für Museum und Karzer gelten die offiziellen Universitätstickets.'],
+    en: ['Museum, historic auditorium and Student Jail have seasonal hours and closing days.', 'University admission tickets apply to museum and jail visits.'],
+    zh: ['博物馆、历史礼堂和学生禁闭室有分季开放安排与闭馆日。', '博物馆与禁闭室按照大学官方票务规定收费。'],
+  },
+};
+
 // Site-owned copies of location-matched real photographs. Existing gallery files are untouched.
 export const guidePhotos: Partial<Record<GuideSlug, { src: string; credit: string }[]>> = {
+  philosophenweg: [
+    { src: '/attractions/philosophenweg.jpg', credit: 'HeidelbergPhilosophenweg.JPG' },
+    { src: '/attractions/philosophenweg-view.jpg', credit: 'Heidelberg Philosophenweg vom Burgweg.jpg' },
+  ],
+  heiliggeistkirche: [
+    { src: '/attractions/heiliggeistkirche.jpg', credit: '20230315 Heiliggeistkirche Heidelberg 01.jpg' },
+    { src: '/attractions/heiliggeistkirche-interior.jpg', credit: 'Heidelberg - Altstadt - Heiliggeistkirche - Gewölbe mit Himmelsloch und Engelskonzert (1).jpg' },
+  ],
+  schloss: [
+    { src: '/attractions/schloss-courtyard.jpg', credit: 'Heidelberger Schloss (Innenhof).jpg' },
+    { src: '/attractions/schloss-facade.jpg', credit: 'HeidelbergerSchlossHof.jpg' },
+  ],
   koenigstuhl: [
     { src: '/attractions/koenigstuhl-view.jpg', credit: 'Blick vom Königstuhl nach Heidelberg.jpg' },
     { src: '/attractions/koenigstuhl-station.jpg', credit: 'Königstuhl, Blick auf Gipfelstation, Gaisberg und Heidelberg - panoramio.jpg' },

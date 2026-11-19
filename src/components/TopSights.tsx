@@ -12,6 +12,7 @@ export default function TopSights() {
   const locale = useLocale();
   const messages = useMessages() as any;
   const items = (messages?.topSights?.items || []) as SightItem[];
+  const guideSlugs = ['schloss', 'koenigstuhl', 'philosophenweg', 'altstadt', 'heiliggeistkirche', 'universitaet'];
 
   return (
     <section id="top-sights" className="section-padding" style={{ background: 'var(--bg-tertiary)' }}>
@@ -29,8 +30,9 @@ export default function TopSights() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
           {items.map((item, index) => (
-            <div
+            <a
               key={item.name}
+              href={`/${locale}/attractions/${guideSlugs[index]}`}
               className="rounded-xl p-6"
               style={{ background: 'var(--bg-secondary)', border: '1px solid var(--border-color)' }}
             >
@@ -54,7 +56,7 @@ export default function TopSights() {
               <p className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
                 {item.desc}
               </p>
-            </div>
+            </a>
           ))}
         </div>
 
