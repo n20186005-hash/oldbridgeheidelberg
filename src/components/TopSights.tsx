@@ -18,16 +18,19 @@ export default function TopSights() {
       { name: 'Brückentor', distance: 'Direkt an der Brücke', desc: 'Historische Tortürme mit Blick auf den Neckar.', slug: 'brueckentor' },
       { name: 'Heidelberger Brückenaffe', distance: 'Am Brückentor', desc: 'Die bekannte Bronzefigur am Zugang zur Alten Brücke.', slug: 'brueckenaffe' },
       { name: 'Jesuitenkirche', distance: 'In der Altstadt', desc: 'Barocke Kirche mit hellem Innenraum nahe dem Universitätsplatz.', slug: 'jesuitenkirche' },
+      { name: 'Studentenkarzer', distance: 'Bei der Universität', desc: 'Historische Arrestzellen mit studentischer Wandkunst.', slug: 'studentenkarzer' },
     ],
     en: [
       { name: 'Bridge Gate', distance: 'At the bridge', desc: 'Historic gate towers overlooking the Neckar.', slug: 'brueckentor' },
       { name: 'Heidelberg Bridge Monkey', distance: 'By the gate', desc: 'The famous bronze sculpture beside the Old Bridge entrance.', slug: 'brueckenaffe' },
       { name: 'Jesuit Church', distance: 'Old Town', desc: 'A light-filled Baroque church near University Square.', slug: 'jesuitenkirche' },
+      { name: 'Student Jail', distance: 'University Quarter', desc: 'Historic detention rooms covered in student drawings.', slug: 'studentenkarzer' },
     ],
     zh: [
       { name: '海德堡老桥门', distance: '老桥入口', desc: '守护内卡河畔的历史双塔城门。', slug: 'brueckentor' },
       { name: '海德堡桥猴', distance: '老桥门旁', desc: '老桥入口的著名青铜雕塑与拍照地标。', slug: 'brueckenaffe' },
       { name: '耶稣会教堂', distance: '老城区', desc: '大学广场附近明亮而庄严的巴洛克教堂。', slug: 'jesuitenkirche' },
+      { name: '学生禁闭室', distance: '大学街区', desc: '保留历史学生涂鸦的大学禁闭室。', slug: 'studentenkarzer' },
     ],
   }[locale as 'de' | 'en' | 'zh'] || [];
   const cards = [
